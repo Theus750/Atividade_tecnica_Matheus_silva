@@ -59,29 +59,30 @@ npx cypress run
 ## 📁 Estrutura do projeto
 
 ```bash
-📦 clinic-mol-cypress
+📦 Atividade_Tecnica_Matheus_Silva
 ├── cypress/
 │   ├── e2e/
-│   │   └── FullFlow.cy.js        # Arquivo principal de testes (fluxos 1–4)
+│   │   └── FullFlow.cy.js                  # Arquivo principal de testes (fluxos 1–4)
 │   ├── fixtures/
-│   │   └── usuario.json            # Dados do usuário (gerado automaticamente)
+│   │   └── usuario.json                    # Dados do usuário (gerado automaticamente)
 │   ├── support/
-│   │   ├── commands.js             # Comandos customizados (login, agendarConsulta etc.)
-│   │   └── e2e.js                  # Arquivo de suporte do Cypress
+│   │   ├── commands.js                     # Comandos customizados (login, agendarConsulta etc.)
+│   │   └── e2e.js                          # Arquivo de suporte do Cypress
 │
-├── .gitignore                      # Arquivos e pastas ignorados pelo Git
-├── cypress.config.js               # Configuração do Cypress
-├── package.json                    # Dependências e scripts do projeto
+├── .gitignore                              # Arquivos e pastas ignorados pelo Git
+├── Atividade_2_Fundamentos_de_Testes.md
+├── cypress.config.js                       # Configuração do Cypress
+├── package.json                            # Dependências e scripts do projeto
 ├── pdf-test.pdf
-└── README.md                       # Este arquivo 
+└── README.md                               # Este arquivo 
 
 ```
 
 ---
 
 # Links:
-[Matheus](https://github.com/Theus750)
-[Matheus](https://github.com/Theus750)
+[Repositório da ativida](https://github.com/Theus750)
+[Link do Video](https://github.com/Theus750)
 [Matheus](https://github.com/Theus750)
 
 
