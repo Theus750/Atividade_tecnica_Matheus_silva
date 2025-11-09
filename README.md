@@ -10,8 +10,8 @@ Antes de começar, certifique-se de ter instalado:
 Depois, clone o repositório e instale as dependências:
 ```bash
 git clone https://github.com/Theus750/Atividade_tecnica_Matheus_silva.git
-cd clinic-mol-cypress
-npm install
+cd Atividade_Tecnica_Matheus_Silva
+npm install cypress 
 ```
 ---
 ## 🚀 Como Rodar os Testes
@@ -22,6 +22,8 @@ Abre o Cypress Test Runner para visualizar os testes rodando em tempo real:
 ```bash
 npx cypress open
 ```
+Após isso, selecione o tipo de teste ***"E2E"*** e o navegador que deseja usar.
+
 
 Depois, selecione o arquivo:
 
@@ -81,7 +83,7 @@ npx cypress run
 ---
 
 # Links:
-[Repositório da ativida](https://github.com/Theus750)
+[Repositório da atividade](https://github.com/Theus750)
 [Link do Video](https://github.com/Theus750)
 [Matheus](https://github.com/Theus750)
 

@@ -43,7 +43,7 @@ Cypress.Commands.add("agendarConsulta", () => {
     cy.get('[data-cy="texto-consulta-presencial"]').click({force: true});
     cy.get('[data-cy^="convenio-radio"]').contains('PARTICULAR').click({force: true});
     cy.get('[data-cy^="especialidade-item"]').contains('CARDIOLOGIA')
-    cy.get('[data-cy^="agendar-agenda-item-"]').first().within(() => {
+    cy.get('[data-cy^="agendar-agenda-item-"]').eq(1).within(() => {
       cy.get('[data-cy="agenda-main-header"]').then((diaElement) => {
         let data = diaElement.text().slice(0, 4);
         cy.wrap(data).as('diaSelecionado')
