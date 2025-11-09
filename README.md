@@ -1,0 +1,88 @@
+# Atividade Tecnica 
+---
+# ⚙️ Instalação
+
+Antes de começar, certifique-se de ter instalado:
+
+[Node.js (versão 16 ou superior)](https://nodejs.org/pt/download)
+[npm ou yarn](https://nodejs.org/pt/download)
+
+Depois, clone o repositório e instale as dependências:
+```bash
+git clone https://github.com/Theus750/Atividade_tecnica_Matheus_silva.git
+cd clinic-mol-cypress
+npm install
+```
+---
+## 🚀 Como Rodar os Testes
+
+### 🔹 Modo Interativo (interface do Cypress)
+
+Abre o Cypress Test Runner para visualizar os testes rodando em tempo real:
+```bash
+npx cypress open
+```
+
+Depois, selecione o arquivo:
+
+```bash
+FullFlow.cy.js 
+```
+### 🔹 Modo Headless (linha de comando)
+
+Executa todos os testes diretamente no terminal (sem interface gráfica):
+
+```bash
+npx cypress run
+```
+---
+## 🧩 Funcionalidades Testadas
+| Fluxo | Descrição                         |
+| ----- | --------------------------------- |
+| **1** | Cadastro de novo usuário          |
+| **2** | Login de usuário existente        |
+| **3** | Agendamento de consulta           |
+| **4** | Envio de comprovante de pagamento |
+
+---
+## 🧠 Comandos Customizados
+
+| Fluxo | Comando                         |
+| ----- | --------------------------------- |
+| **1** | cy.login(email, senha)        |
+| **2** | cy.agendarConsulta()        |
+| **3** | cy.salvarDados(nome, email)           |
+| **4** | cy.preencherFormulario(nome, email) |
+
+
+---
+## 📁 Estrutura do projeto
+
+```bash
+📦 clinic-mol-cypress
+├── cypress/
+│   ├── e2e/
+│   │   └── FullFlow.cy.js        # Arquivo principal de testes (fluxos 1–4)
+│   ├── fixtures/
+│   │   └── usuario.json            # Dados do usuário (gerado automaticamente)
+│   ├── support/
+│   │   ├── commands.js             # Comandos customizados (login, agendarConsulta etc.)
+│   │   └── e2e.js                  # Arquivo de suporte do Cypress
+│
+├── .gitignore                      # Arquivos e pastas ignorados pelo Git
+├── cypress.config.js               # Configuração do Cypress
+├── package.json                    # Dependências e scripts do projeto
+├── pdf-test.pdf
+└── README.md                       # Este arquivo 
+
+```
+
+---
+
+# Links:
+[Matheus](https://github.com/Theus750)
+[Matheus](https://github.com/Theus750)
+[Matheus](https://github.com/Theus750)
+
+
+# 🧑🏽‍💻 Feito com carinho por [Matheus](https://github.com/Theus750)
