@@ -84,8 +84,8 @@ npx cypress run
 
 # Links:
 [Repositório da atividade](https://github.com/Theus750)
-[Link do Video](https://github.com/Theus750)
-[Matheus](https://github.com/Theus750)
+[Link do Video](https://youtu.be/veWa-PK1mVE)
+
 
 
 # 🧑🏽‍💻 Feito com carinho por [Matheus](https://github.com/Theus750)
