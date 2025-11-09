@@ -11,7 +11,7 @@ Depois, clone o repositório e instale as dependências:
 ```bash
 git clone https://github.com/Theus750/Atividade_tecnica_Matheus_silva.git
 cd Atividade_Tecnica_Matheus_Silva
-npm install cypress 
+npm install cypress --save-dev
 ```
 ---
 ## 🚀 Como Rodar os Testes
